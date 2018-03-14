@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="student.xsl"?>
+<!DOCTYPE photo
+[
+<!ELEMENT photo (src,description,width,height,size,user)>
+<!ELEMENT user (name,email,phone)>
+<!ELEMENT src (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT width (#PCDATA)>
+<!ELEMENT height (#PCDATA)>
+<!ELEMENT size (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+]>
+
+<photo>
+     <src>WT PROJECT</src>
+	 <description>web technologies project to be completed by time</description>
+	 <width>5/03/2018</width>
+	 <height>6/03/2018</height>
+	 <size>1000kb</size>
+     <user>
+	   <name>satya</name>
+       <email>adurthisatyanarayana@gmail.com</email>
+       <phone>9492917922</phone>
+     </user>	 
+</photo>
